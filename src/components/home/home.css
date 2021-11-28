@@ -1,0 +1,51 @@
+.about_title{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding-top: 5em;
+    padding-left: 2em;
+    font-size: large;
+    margin: auto;
+}
+
+.about_lottie{
+    margin: 0em 2em ;
+    display: table-cell;
+    text-align: center;
+    padding-top: 2em;
+}
+
+.about_content{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.about_text{
+    padding: 2em 3em;
+    display: table-cell;
+    text-align: center;
+    color: white;
+    margin: 2em 2em ;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 1200px) {
+    .about_lottie{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about_text{
+        font-size: 1.2em;
+    }
+}
+@media screen and (min-width: 900px) {
+    .about_text{
+        font-size: 1.5em;
+    }
+}
