@@ -1,5 +1,5 @@
 import "./App.css";
-import Home from "./components/home/Home"
+import About from "./components/about/about"
 
 import Navbar from "./components/navbar/Navbar";
 
@@ -9,7 +9,7 @@ function App() {
       <div className="gradient__bg">
         <Navbar />
       </div>
-      <Home />
+      <About />
     </div>
   );
 }

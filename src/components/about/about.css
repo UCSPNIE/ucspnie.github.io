@@ -33,6 +33,23 @@
     font-size: 1.2em;
 }
 
+/* .about_cards {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 10px 6px 20px 0 rgba(255, 255, 255, 0.19);    text-align: center;
+  } */
+
+
+.cards-row {
+	margin-top: 10em ;
+    margin-left: 2em;
+    margin-right: 2em;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+  
 @media screen and (max-width: 1200px) {
     .about_lottie{
         display: none;
@@ -44,8 +61,22 @@
         font-size: 1.2em;
     }
 }
+/* @media screen and (max-width:900px){
+    .cards-row{
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+    }
+} */
 @media screen and (min-width: 900px) {
     .about_text{
         font-size: 1.5em;
     }
 }
+
+
+
+
+
+
+
