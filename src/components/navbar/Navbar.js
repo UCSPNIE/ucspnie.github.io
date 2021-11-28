@@ -8,16 +8,13 @@ const Menu = () => (
       <a href="#home">Home</a>
     </p>
     <p>
-      <a href="#ucsp">What's GPT</a>
+      <a href="#about">About</a>
     </p>
     <p>
-      <a href="#possibility">OpenAI</a>
+      <a href="#possibility">Events</a>
     </p>
     <p>
-      <a href="#features">Case Studies</a>
-    </p>
-    <p>
-      <a href="#blog">Library</a>
+      <a href="#features">Team</a>
     </p>
   </>
 );
@@ -37,8 +34,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className="ucsp__navbar-sign">
-        <p>Sign In</p>
-        <button type="button">Sign Up</button>
+        {/* <p>Sign In</p> */}
+        <button type="button">Join Us</button>
       </div>
       <div className="ucsp__navbar-menu">
         {toggleMenu ? (
@@ -59,8 +56,7 @@ const Navbar = () => {
             <div className="ucsp__navbar-menu_container-links">
               <Menu />
               <div className="ucsp__navbar-menu_container-links-sign">
-                <p>Sign In</p>
-                <button type="button">Sign Up</button>
+                <button type="button">Join Us</button>
               </div>
             </div>
           </div>
