@@ -12,9 +12,6 @@ const About = () => {
         loop: true,
         autoplay: true,
         animationData: welcome,
-        // rendererSettings: {
-        //     preserveAspectRatio: "xMidYMid slice"
-        // }
     };
     const goalLottie = {
         loop: true,
@@ -25,17 +22,11 @@ const About = () => {
         loop: true,
         autoplay: true,
         animationData: motto,
-        // rendererSettings: {
-        //     preserveAspectRatio: "xMidYMid slice"
-        // }
     };
     const visionLottie = {
         loop: true,
         autoplay: true,
         animationData: vision,
-        // rendererSettings: {
-        //     preserveAspectRatio: "xMidYMid slice"
-        // }
     };
     const text = 'WiNG: Wireless Inter Networking Group, VVCE, Mysuru is a community where people work for the upliftment of research in areas of networking. UCSP has signed a Research Collaboration Agreement with WiNG through which we aim to broaden our areas of work as well as connect with more people, building a healthy and encouraging research environment.';
 
