@@ -14,6 +14,9 @@ const Menu = () => (
       <a href="#events">Events</a>
     </p>
     <p>
+      <a href="#mentors">Mentors</a>
+    </p>
+    <p>
       <a href="#team">Team</a>
     </p>
   </>

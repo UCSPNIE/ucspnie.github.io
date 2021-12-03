@@ -26,7 +26,7 @@ const Events = () => {
                 <span className="events_tb">
                     <div className="events_text">{text}</div>
                     <div className="events_button">
-                        <a href="" className="a">
+                        <a href="#events" className="a">
                             <nav className="nav">
                             <ul className="nav_ul">
                                 <li className="nav_ul_li">
