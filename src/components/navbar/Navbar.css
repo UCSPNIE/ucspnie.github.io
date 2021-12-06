@@ -77,12 +77,12 @@
   position: absolute;
   top: 40px;
   right: 0px;
+  /* z-index: 50px; */
   color: #fff;
   margin-top: 1rem;
   min-width: 210px;
   border-radius: 5px;
   box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
-  /* line-height: 25px; */
 }
 
 .ucsp__navbar-menu_container-links p {
