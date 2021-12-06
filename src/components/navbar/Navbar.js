@@ -2,22 +2,21 @@ import React from "react";
 import "./Navbar.css";
 import { useState } from "react";
 import { RiMenuLine, RiCloseLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 const Menu = () => (
   <>
     <p>
-      <a href="#home">Home</a>
+      <Link to="/">Home</Link>
     </p>
     <p>
-      <a href="#about">About</a>
+      <Link to="/about">About</Link>
     </p>
     <p>
-      <a href="#events">Events</a>
+      <Link to="/events">Events</Link>
     </p>
     <p>
-      <a href="#mentors">Mentors</a>
-    </p>
-    <p>
-      <a href="#team">Team</a>
+      <Link to="/team">Team</Link>
+
     </p>
   </>
 );

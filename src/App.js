@@ -1,24 +1,28 @@
 import "./App.css";
-import About from "./components/about/about"
-import Events from "./components/events/events";
-import Mentors from "./components/mentors/mentors";
 
 import Navbar from "./components/navbar/Navbar";
-import Team from "./components/team/team";
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Eventpage from "./pages/event/Eventpage";
+import Home from "./components/home/Home";
 
 function App() {
   return (
     <div className="App">
-      <div className="gradient__bg">
-        <Navbar />
-      </div>
-      <About />
-      <Events/>
-      <Mentors />
-      <Team />
-      <div className="footer">
-       
-      </div>
+
+      <Router>
+        <div className="gradient__bg">
+          <Navbar />
+        </div>
+
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/events" element={<Eventpage />} />
+        </Routes>
+      </Router>
+
+     
+
     </div>
   );
 }
