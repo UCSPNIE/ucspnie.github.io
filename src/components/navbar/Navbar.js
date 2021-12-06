@@ -16,6 +16,7 @@ const Menu = () => (
     </p>
     <p>
       <Link to="/team">Team</Link>
+
     </p>
   </>
 );

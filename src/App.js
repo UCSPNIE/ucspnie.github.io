@@ -1,4 +1,5 @@
 import "./App.css";
+
 import Navbar from "./components/navbar/Navbar";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -8,6 +9,7 @@ import Home from "./components/home/Home";
 function App() {
   return (
     <div className="App">
+
       <Router>
         <div className="gradient__bg">
           <Navbar />
@@ -18,6 +20,9 @@ function App() {
           <Route exact path="/events" element={<Eventpage />} />
         </Routes>
       </Router>
+
+     
+
     </div>
   );
 }

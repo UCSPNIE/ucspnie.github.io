@@ -4,6 +4,7 @@ import Lottie from "react-lottie";
 import team from "../../lottie/team.json";
 
 const Team = () => {
+
   const teamLottie = {
     loop: true,
     autoplay: true,
@@ -31,6 +32,7 @@ const Team = () => {
                   </ul>
                 </nav>
               </a>
+ 
             </div>
           </span>
         </div>
