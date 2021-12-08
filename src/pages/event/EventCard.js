@@ -1,6 +1,6 @@
 import React from "react";
 import "./EventCard.css";
-const EventCard = ({ img, heading, venue, date }) => {
+const EventCard = ({ img, heading, organiser, venue, date }) => {
   return (
     <div className="card">
       <div className="img-box">
@@ -11,7 +11,7 @@ const EventCard = ({ img, heading, venue, date }) => {
         <div className="info">
           <div className="description">
             <span>Organised By :</span>
-            <span className="first">UCSP</span>
+            <span className="first">{organiser}</span>
           </div>
           <div className="description">
             <span>Venue :</span>
@@ -22,7 +22,6 @@ const EventCard = ({ img, heading, venue, date }) => {
             <span className="first">{date}</span>
           </div>
         </div>
-        <button>Know More</button>
       </div>
     </div>
   );
