@@ -4,14 +4,13 @@ import Lottie from "react-lottie";
 import team from "../../lottie/team.json";
 
 const Team = () => {
-
   const teamLottie = {
     loop: true,
     autoplay: true,
     animationData: team,
   };
   const text =
-    "From CSE to ISE to ECE , programming enthusiasts to hardware geeks , we have them all";
+    "From ISE to CSE to ECE , programming enthusiasts to hardware geeks , we have them all";
   return (
     <div className="team_row">
       <div id="team" className="team_title">
@@ -32,7 +31,6 @@ const Team = () => {
                   </ul>
                 </nav>
               </a>
- 
             </div>
           </span>
         </div>

@@ -26,9 +26,9 @@
 }
 .ucsp__navbar-links_container a:hover {
   cursor: pointer;
-  font-size: 22px;
+  /* font-size: 22px; */
   border: 1px solid rgb(8, 31, 238);
-  border-radius: 10px;
+  border-radius: 5px;
   background: rgb(155, 230, 140);
   color: blue;
 }
