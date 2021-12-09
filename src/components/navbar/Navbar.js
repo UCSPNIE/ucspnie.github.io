@@ -18,6 +18,9 @@ const Menu = () => (
       <Link to="/team">Team</Link>
 
     </p>
+    <p>
+      <Link to="/mentors">Mentors</Link>
+    </p>
   </>
 );
 const Navbar = () => {

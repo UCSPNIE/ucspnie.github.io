@@ -15,42 +15,49 @@ const Eventpage = () => {
         <EventCard
           img="https://ucsp-website.herokuapp.com/static/img/cryptography.jpeg"
           heading="Cryptography"
+          organiser="UCSP"
           venue="MV HALL"
           date="03/12/21"
         />
         <EventCard
           img="https://ucsp-website.herokuapp.com/static/img/imageprocessing.jpeg"
           heading="Big Data"
+          organiser="UCSP"
           venue="NRN Block"
           date="25/12/21"
         />
         <EventCard
           img="https://ucsp-website.herokuapp.com/static/img/paperwriting.jpeg"
           heading="Cryptography"
+          organiser="UCSP"
           venue="MV HALL"
           date="03/12/21"
         />
         <EventCard
           img="https://ucsp-website.herokuapp.com/static/img/paperwriting.jpeg"
           heading="Cryptography"
+          organiser="UCSP"
           venue="MV HALL"
           date="03/12/21"
         />
         <EventCard
           img="https://ucsp-website.herokuapp.com/static/img/paperwriting.jpeg"
           heading="Cryptography"
+          organiser="UCSP"
           venue="MV HALL"
           date="03/12/21"
         />
         <EventCard
           img="https://ucsp-website.herokuapp.com/static/img/paperwriting.jpeg"
           heading="Cryptography"
+          organiser="UCSP"
           venue="MV HALL"
           date="03/12/21"
         />
         <EventCard
           img="https://ucsp-website.herokuapp.com/static/img/paperwriting.jpeg"
           heading="Cryptography"
+          organiser="UCSP"
           venue="MV HALL"
           date="03/12/21"
         />

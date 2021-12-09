@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 2rem;
+  padding: 0.3rem 2rem;
 }
 .ucsp__navbar-links {
   flex: 0.8;
@@ -10,6 +10,7 @@
   justify-content: flex-start;
   align-items: center;
 }
+
 .ucsp__navbar-links_logo {
   margin-right: 2rem;
   margin-left: 2rem;
@@ -22,6 +23,14 @@
 .ucsp__navbar-links_container {
   display: flex;
   margin-left: 3rem;
+}
+.ucsp__navbar-links_container a:hover {
+  cursor: pointer;
+  font-size: 22px;
+  border: 1px solid rgb(8, 31, 238);
+  border-radius: 10px;
+  background: rgb(155, 230, 140);
+  color: blue;
 }
 .ucsp__navbar-sign {
   flex: 0.2;
