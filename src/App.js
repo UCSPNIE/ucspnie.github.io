@@ -6,7 +6,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Eventpage from "./pages/event/Eventpage";
 import Home from "./components/home/Home";
 import Mentors from "./components/mentors/mentors";
-import Team from "./components/team/Team";
+import TeamPage from "./pages/team/TeamPage";
+// import Team from "./components/team/Team";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/events" element={<Eventpage />} />
-          <Route exact path="/team" element={<Team />} />
+          <Route exact path="/team" element={<TeamPage />} />
           <Route exact path="/mentors" element={<Mentors />} />
         </Routes>
       </Router>

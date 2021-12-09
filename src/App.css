@@ -5,9 +5,16 @@
   scroll-behavior: smooth;
 }
 
+@media (max-width:600px){
+  body{
+    min-width:fit-content;
+  }
+}
 body {
   background: var(--color-bg);
+  
 }
+
 a {
   color: unset;
   text-decoration: none;

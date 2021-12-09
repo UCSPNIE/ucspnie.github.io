@@ -5,6 +5,7 @@ import "./Eventpage.css";
 const Eventpage = () => {
   return (
     <div className="eventpage">
+    <div className="heading">EVENTS</div>
       <div className="newevent">
         <img
           src="https://ucsp-website.herokuapp.com/static/img/paperwriting.jpeg"
