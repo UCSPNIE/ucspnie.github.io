@@ -29,7 +29,6 @@ const Events = () => {
                 <ul className="nav_ul">
                   <li className="nav_ul_li">
                     <Link to="/events">Go to Events</Link>
-   
 
                     <span className="nav_ul_li_span"></span>
                   </li>

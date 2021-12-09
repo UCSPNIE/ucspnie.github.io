@@ -1,6 +1,7 @@
 import React from "react";
 import About from "../about/About";
 import Events from "../events/Events";
+import Mentors from "../mentors/mentors";
 import Team from "../team/Team";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       <About />
       <Events />
       <Team />
+      <Mentors />
     </div>
   );
 };
