@@ -8,6 +8,7 @@ import Home from "./components/home/Home";
 import Mentors from "./components/mentors/mentors";
 
 import TeamPage from "./pages/team/TeamPage";
+import Footer from "./pages/footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route exact path="/team" element={<TeamPage />} />
           <Route exact path="/mentors" element={<Mentors />} />
         </Routes>
+
+        <Footer />
       </Router>
     </div>
   );

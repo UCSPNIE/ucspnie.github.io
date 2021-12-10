@@ -16,7 +16,6 @@ const Menu = () => (
     </p>
     <p>
       <Link to="/team">Team</Link>
-
     </p>
     <p>
       <Link to="/mentors">Mentors</Link>
@@ -57,7 +56,7 @@ const Navbar = () => {
           />
         )}
         {toggleMenu && (
-          <div className="ucsp__nav-menu_container shadow-pop-tr">
+          <div className="ucsp__nav-menu_container scale-up-center">
             <div className="ucsp__navbar-menu_container-links">
               <Menu />
               <div className="ucsp__navbar-menu_container-links-sign">

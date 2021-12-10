@@ -31,6 +31,7 @@
   border-radius: 5px;
   background: rgb(155, 230, 140);
   color: blue;
+  padding: 5px 12px;
 }
 .ucsp__navbar-sign {
   flex: 0.2;
