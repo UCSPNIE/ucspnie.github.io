@@ -1,5 +1,5 @@
 import React from "react";
-import "./Events.css";
+import "./events.css";
 import Lottie from "react-lottie";
 import events from "../../lottie/events.json";
 import { Link } from "react-router-dom";

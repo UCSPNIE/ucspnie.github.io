@@ -1,5 +1,5 @@
 import React from "react";
-import "./Team.css";
+import "./team.css";
 import Lottie from "react-lottie";
 import team from "../../lottie/team.json";
 import {Link} from 'react-router-dom';
@@ -18,6 +18,14 @@ const Team = () => {
         <h1>TEAM</h1>
       </div>
       <div className="team_content">
+      <span className="team_lottie">
+          <Lottie
+            options={teamLottie}
+            // height='50vh'
+            // width='40vw'
+            background="transparent"
+          />
+        </span>
         <div className="team_tb_container">
           <span className="team_tb">
             <div className="team_text">{text}</div>
@@ -37,14 +45,6 @@ const Team = () => {
           </span>
         </div>
         {/* <span className="team_text">text</span> */}
-        <span className="team_lottie">
-          <Lottie
-            options={teamLottie}
-            // height='50vh'
-            // width='40vw'
-            background="transparent"
-          />
-        </span>
       </div>
     </div>
   );
