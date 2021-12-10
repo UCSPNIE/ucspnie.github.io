@@ -2,6 +2,7 @@ import React from "react";
 import "./team.css";
 import Lottie from "react-lottie";
 import team from "../../lottie/team.json";
+import {Link} from 'react-router-dom';
 
 const Team = () => {
   const teamLottie = {
@@ -33,7 +34,8 @@ const Team = () => {
                 <nav className="nav">
                   <ul className="nav_ul">
                     <li className="nav_ul_li">
-                      meet the team
+                    <Link to="/team">meet the team</Link>
+                      
                       <span className="nav_ul_li_span"></span>
                     </li>
                   </ul>
