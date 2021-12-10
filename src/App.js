@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Eventpage from "./pages/event/Eventpage";
 import Home from "./components/home/Home";
 import Mentors from "./components/mentors/mentors";
-import Team from "./components/team/Team";
+import Team from "./components/team/team";
 
 function App() {
   return (

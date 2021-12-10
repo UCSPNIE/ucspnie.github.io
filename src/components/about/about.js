@@ -1,11 +1,11 @@
 import React from "react";
-import "./About.css";
+import "./about.css";
 import Lottie from "react-lottie";
 import welcome from "../../lottie/welcome.json";
 import goal from "../../lottie/goal.json";
 import vision from "../../lottie/vision.json";
 import motto from "../../lottie/motto.json";
-import "./Cards.css";
+import "./cards.css";
 
 const About = () => {
   const welcomeLottie = {
