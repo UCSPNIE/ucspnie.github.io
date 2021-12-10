@@ -4,21 +4,50 @@
   box-sizing: border-box;
 }
 
-  .heading{
-    /* display:none; */
-    margin-top: 5px;
-    font-size: 3rem;
-    font-family: var(--font-family);
-    font-weight: bolder;
-    width: 18rem;
-    margin:auto;
-    /* padding: .5rem; */
-    border-bottom:1px solid rgb(240, 77, 27) ;
-    color:#fff;
-    text-align: center;
-
+.heading {
+  /* display:none; */
+  margin-top: 5px;
+  font-size: 2.8rem;
+  font-family: sans-serif;
+  font-weight: bolder;
+  width: 18rem;
+  margin: auto;
+  /* padding: .5rem; */
+  border-bottom: 1px solid rgb(240, 77, 27);
+  color: #fff;
+  text-align: center;
 }
-
+.heading:hover {
+  -webkit-animation: tracking-in-contract 0.8s
+    cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract 1.5s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
 .card-container {
   position: relative;
   width: 100%;
@@ -41,6 +70,70 @@
   padding: 20px 15px;
   position: relative;
   z-index: -1;
+}
+.jello-vertical {
+  -webkit-animation: jello-vertical 0.9s 1s both;
+  animation: jello-vertical 0.9s 1s both;
+}
+@-webkit-keyframes jello-vertical {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(0.85, 1.15, 1);
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-vertical {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(0.85, 1.15, 1);
+    transform: scale3d(0.85, 1.15, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
 }
 .newevent img {
   height: 300px;
