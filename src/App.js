@@ -7,10 +7,7 @@ import Eventpage from "./pages/event/Eventpage";
 import Home from "./components/home/Home";
 import Mentors from "./components/mentors/mentors";
 
-// import TeamPage from "./pages/team/TeamPage";
-// import Team from "./components/team/Team";
-// import Team from "./components/team/team";
-// >>>>>>> master
+import TeamPage from "./pages/team/TeamPage";
 
 function App() {
   return (
