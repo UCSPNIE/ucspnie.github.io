@@ -34,27 +34,27 @@ const Footer = () => (
 
       <div className="ucsp__footer-links_div">
         <h4 className="space">Get in touch</h4>
-        <p>Spoorthy J</p>
+        {/* <p>Spoorthy J</p> */}
         <p>+91 7026763209</p>
         <p>ucsp.nie@gmail.com</p>
         <div className="handles">
-          <span className="facebook">
+          {/* <span className="facebook">
             <a href="">
               <i class="fab fa-facebook"></i>
             </a>
-          </span>
+          </span> */}
           <span className="instagram">
-            <a href="">
+            <a href="https://www.instagram.com/ucsp_research_group_nie/">
               <i class="fab fa-instagram"></i>
             </a>
           </span>
           <span className="twitter">
-            <a href="">
+            <a href="https://twitter.com/UCSP_NIE?s=20">
               <i class="fab fa-twitter"></i>
             </a>
           </span>
           <span className="linkedin">
-            <a href="">
+            <a href="https://www.linkedin.com/company/ucsp/mycompany/">
               <i class="fab fa-linkedin"></i>
             </a>
           </span>
