@@ -5,13 +5,13 @@ import Navbar from "./components/navbar/Navbar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Eventpage from "./pages/event/Eventpage";
 import Home from "./components/home/Home";
-import Mentors from "./components/mentors/mentors";
+import Mentors from "./pages/mentors/Mentors";
 
 import TeamPage from "./pages/team/TeamPage";
 import Footer from "./pages/footer/Footer";
 
 function App() {
-  return (
+    return (      
     <div className="App">
       <Router>
         <div className="gradient__bg">

@@ -4,7 +4,7 @@
   font-family: var(--font-family);
 }
 
-.card {
+.ecard {
   max-width: 450px;
   position: relative;
   height: 250px;
@@ -18,10 +18,10 @@
   border-radius: 10px;
   /* z-index: 1; */
 }
-.card:hover {
+.ecard:hover {
   height: 430px;
 }
-.card .img-box {
+.ecard .img-box {
   position: relative;
   width: 260px;
   height: 260px;
@@ -30,7 +30,7 @@
   /* z-index: -1; */
   box-shadow: 0 5px 20px rgb(0 0 0 / 20%);
 }
-.card .img-box img {
+.ecard .img-box img {
   height: 260px;
   max-width: 100%;
   border-radius: 4px;
@@ -38,7 +38,7 @@
   border-radius: 10px;
 }
 
-.card .card-contents {
+.ecard .ecard-contents {
   position: relative;
   margin-top: -140px;
   padding: 10px 15px;
@@ -49,24 +49,24 @@
   transition: 0.3s ease-in-out;
   /* z-index: 1; */
 }
-.card:hover .card-contents {
+.ecard:hover .ecard-contents {
   visibility: visible;
   opacity: 1;
   margin-top: -55px;
   transition-delay: 0.3s;
 }
-.card .card-contents h2 {
+.ecard .ecard-contents h2 {
   font-size: 28px;
   margin: 5px 0px;
 }
-.card .card-contents .info {
+.ecard .ecard-contents .info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-evenly;
   margin-top: 15px;
 }
-.card .card-contents .info .description {
+.ecard .ecard-contents .info .description {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -75,7 +75,7 @@
   font-family: var(--font-family);
   font-weight: 700;
 }
-.card .card-contents .info .description .first {
+.ecard .ecard-contents .info .description .first {
   color: #1bafc7;
   margin-left: 5px;
 }
