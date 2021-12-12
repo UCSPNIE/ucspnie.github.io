@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import {Link} from 'react-router-dom';
 
 const Footer = () => (
   <div className="ucsp__footer section__padding">
@@ -10,7 +11,7 @@ const Footer = () => (
     </div>
 
     <div className="ucsp__footer-btn">
-      <p>JOIN US</p>
+      <p><Link to="/register">JOIN US</Link></p>
     </div>
 
     <div className="ucsp__footer-links">

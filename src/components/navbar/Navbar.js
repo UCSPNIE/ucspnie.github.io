@@ -39,7 +39,7 @@ const Navbar = () => {
       </div>
       <div className="ucsp__navbar-sign">
         {/* <p>Sign In</p> */}
-        <button type="button">Join Us</button>
+        <button type="button"><Link to="/register">Join Us</Link></button>
       </div>
       <div className="ucsp__navbar-menu">
         {toggleMenu ? (
@@ -60,7 +60,7 @@ const Navbar = () => {
             <div className="ucsp__navbar-menu_container-links">
               <Menu />
               <div className="ucsp__navbar-menu_container-links-sign">
-                <button type="button">Join Us</button>
+                <button type="button"><Link to="/register">Join Us</Link></button>
               </div>
             </div>
           </div>
