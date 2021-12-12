@@ -29,12 +29,13 @@ const About = () => {
     animationData: vision,
   };
   const text =
-    "WiNG: Wireless Inter Networking Group, VVCE, Mysuru is a community where people work for the upliftment of research in areas of networking. UCSP has signed a Research Collaboration Agreement with WiNG through which we aim to broaden our areas of work as well as connect with more people, building a healthy and encouraging research environment.";
+    "We are a group of like minded enthusiasts realising our dream in tech. We build projects in various domains and help each other in learning new things. UCSP is a great platform to achieve proficiency in the technical side of the industry. Are you interested in trying out new things? Are you interested in learning different skills? Are you looking to expand your knowledge? Do you have any project ideas but don't have enough people to realise it? Join UCSP and we will work as a team!!!";
 
   return (
     <>
       <div id="about" className="about_title">
-        <h1>UCSP</h1>
+        <h1>Ubiquitous Computing and Signal Processing</h1>
+        <h1>Research Group</h1>
       </div>
       <div className="about_content">
         <span className="about_text">{text}</span>
