@@ -9,6 +9,7 @@ import Mentors from "./components/mentors/mentors";
 
 import TeamPage from "./pages/team/TeamPage";
 import Footer from "./pages/footer/Footer";
+import Register from "./pages/Register/register";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         </div>
 
         <Routes>
+          <Route exact path="/register" element={<Register />} />
           <Route exact path="/" element={<Home />} />
           <Route exact path="/events" element={<Eventpage />} />
           <Route exact path="/team" element={<TeamPage />} />
