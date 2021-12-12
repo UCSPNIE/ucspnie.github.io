@@ -35,15 +35,9 @@ const Footer = () => (
 
       <div className="ucsp__footer-links_div">
         <h4 className="space">Get in touch</h4>
-        {/* <p>Spoorthy J</p> */}
-        <p>+91 7026763209</p>
+        <p>+91 73489 68996</p>
         <p>ucsp.nie@gmail.com</p>
         <div className="handles">
-          {/* <span className="facebook">
-            <a href="">
-              <i class="fab fa-facebook"></i>
-            </a>
-          </span> */}
           <span className="instagram">
             <a href="https://www.instagram.com/ucsp_research_group_nie/">
               <i class="fab fa-instagram"></i>
