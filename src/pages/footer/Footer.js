@@ -48,7 +48,7 @@ const Footer = () => (
               <i class="fab fa-twitter"></i>
             </a>
           </span>
-          <span className="linkedin">
+          <span className="linkedin_">
             <a href="https://www.linkedin.com/company/ucsp/mycompany/">
               <i class="fab fa-linkedin"></i>
             </a>
