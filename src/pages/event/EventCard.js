@@ -2,11 +2,11 @@ import React from "react";
 import "./EventCard.css";
 const EventCard = ({ img, heading, organiser, venue, date }) => {
   return (
-    <div className="card">
+    <div className="ecard">
       <div className="img-box">
         <img src={img} alt="img" />
       </div>
-      <div className="card-contents">
+      <div className="ecard-contents">
         <h2>{heading}</h2>
         <div className="info">
           <div className="description">
