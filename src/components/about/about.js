@@ -44,9 +44,9 @@ const About = () => {
         </span>
       </div>
       <div className="cards-row">
-        <div className="container">
-          <div class="card">
-            <div class="image">
+        <div className="about_cards_container">
+          <div className="card">
+            <div className="image">
               <Lottie
                 options={visionLottie}
                 // height='3vh'
@@ -62,7 +62,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="about_cards_container">
           <div class="card">
             <div class="image">
               <Lottie
@@ -80,7 +80,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="container">
+        <div className="about_cards_container">
           <div class="card">
             <div class="image">
               <Lottie

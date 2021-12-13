@@ -8,7 +8,8 @@
   align-items: center;
   text-align: center;
   padding-top: 5em;
-  padding-left: 2em;
+  display: grid;
+  /* padding-left: 2em; */
   font-size: large;
   margin: auto;
 }
@@ -28,6 +29,14 @@
   margin: auto;
   align-items: stretch;
   justify-content: space-evenly;
+}
+
+
+
+.nav{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .team_text {
