@@ -8,7 +8,8 @@
   align-items: center;
   text-align: center;
   padding-top: 5em;
-  padding-left: 2em;
+  display: grid;
+  /* padding-left: 2em; */
   font-size: large;
   margin: auto;
 }
@@ -78,6 +79,11 @@
   .events_text {
     font-size: 1.5em;
   }
+}
+.nav{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .nav_ul {

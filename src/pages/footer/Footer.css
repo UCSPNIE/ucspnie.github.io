@@ -10,6 +10,8 @@
 .ucsp__footer-heading {
   width: 100%;
   text-align: center;
+  display: grid;
+  justify-content: center;
   margin-top: 1rem;
   margin-bottom: 2rem;
 }
