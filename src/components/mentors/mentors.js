@@ -2,6 +2,7 @@ import React from "react";
 import "./mentors.css"
 import Lottie from "react-lottie";
 import mentors from "../../lottie/mentor.json"
+import { Link } from "react-router-dom";
 
 const Mentors = () => {
     const mentorsLottie = {
@@ -23,7 +24,7 @@ const Mentors = () => {
                             <nav className="nav">
                             <ul className="nav_ul">
                                 <li className="nav_ul_li">
-                                    Meet Mentors
+                                <Link to="/mentors"> Meet Mentors</Link>
                                     <span className="nav_ul_li_span"></span>
                                 </li>
                             </ul>
