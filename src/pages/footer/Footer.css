@@ -68,6 +68,9 @@
   align-items: center;
   justify-content: center;
 }
+.ucsp__footer-links div p{
+  text-transform: none;
+}
 .ucsp__footer-links div .handles {
   width: 150px;
   display: flex;

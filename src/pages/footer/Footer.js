@@ -27,7 +27,7 @@ const Footer = () => (
           <p className="space">Group Info</p>
           <p>Dept. of ECE, NRN Block</p>
           <p>THE NATIONAL INSTITUTE OF ENGINEERING</p>
-          <p>Mananthvady Road</p>
+          <p>Mananthavady Road</p>
           <p>Mysuru - 570008</p>
           <p>Karnataka</p>
         </div>
