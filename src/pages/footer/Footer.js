@@ -35,6 +35,7 @@ const Footer = () => (
 
       <div className="ucsp__footer-links_div">
         <h4 className="space">Get in touch</h4>
+        <p>Teja Jampani</p>
         <p>+91 73489 68996</p>
         <p>ucsp.nie@gmail.com</p>
         <div className="handles">
