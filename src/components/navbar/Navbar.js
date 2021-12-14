@@ -8,9 +8,9 @@ const Menu = () => (
     <p>
       <Link to="/">Home</Link>
     </p>
-    <p>
+    {/* <p>
       <Link to="/about">About</Link>
-    </p>
+    </p> */}
     <p>
       <Link to="/events">Events</Link>
     </p>
