@@ -47,7 +47,7 @@ const TeamPage = () => {
                     </div>
                 </div>
                 <div className="card-body">
-                    <img src="./images/neha.jpeg" alt="" className="img_div" />
+                    <img src="./images/neha.jpg" alt="" className="img_div" />
                     <h3>Neha S</h3>
                     <p className="space">Treasurer</p>
                     <p >ECE</p>

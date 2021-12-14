@@ -8,76 +8,76 @@ const Eventpage = () => {
       <div className="heading">EVENTS</div>
       <div className="newevent jello-vertical">
         <img
-          src="https://ucsp-website.herokuapp.com/static/img/paperwriting.jpeg"
+          src="./eventImages/paperwriting.jpeg"
           alt="image"
         />
       </div>
       <div className="card-container">
         <EventCard
-          img="https://ucsp-website.herokuapp.com/static/img/cryptography.jpeg"
+          img="./eventImages/cryptography.jpeg"
           heading="Cryptography"
           organiser="UCSP"
           venue="MV HALL"
           date="03/12/21"
         />
         <EventCard
-          img="https://ucsp-website.herokuapp.com/static/img/imageprocessing.jpeg"
+          img="./eventImages/imageprocessing.jpeg"
           heading="Image Processing"
           organiser="UCSP"
           venue="NRN Block"
           date="25/12/21"
         />
         <EventCard
-          img="https://ucsp-website.herokuapp.com/static/img/paperwriting.jpeg"
+          img="./eventImages/paperwriting.jpeg"
           heading="Technical Paper"
           organiser="UCSP"
           venue="MV HALL"
           date="03/12/21"
         />
         <EventCard
-          img="https://ucsp-website.herokuapp.com/static/img/technocazar.jpeg"
+          img="./eventImages/technocazar.jpeg"
           heading="Technocazar"
           organiser="UCSP"
           venue="MV HALL"
           date="03/12/21"
         />
         <EventCard
-        img="https://ucsp-website.herokuapp.com/static/img/lds.jpg"
+        img="./eventImages/lds.jpg"
         heading="Lockdown Saga"
         organiser="UCSP" 
         venue="MV HALL"
         date="03/12/21"
         />
         <EventCard
-        img="https://ucsp-website.herokuapp.com/static/img/cn.jpeg"
+        img="./eventImages/cn.jpeg"
         heading="Computer"
         organiser="UCSP" 
         venue="MV HALL"
         date="03/12/21"
         />
         <EventCard
-        img="https://ucsp-website.herokuapp.com/static/img/gitwit.jpeg"
+        img="./eventImages/gitwit.jpeg"
         heading="Git Wit"
         organiser="UCSP" 
         venue="MV HALL"
         date="03/12/21"
         />
         <EventCard
-        img="https://ucsp-website.herokuapp.com/static/img/codezilla.jpeg"
+        img="./eventImages/codezilla.jpeg"
         heading="Codezilla"
         organiser="UCSP" 
         venue="MV HALL"
         date="03/12/21"
         />
         <EventCard
-        img="https://ucsp-website.herokuapp.com/static/img/probability.jpeg"
+        img="./eventImages/probability.jpeg"
         heading="Probability "
         organiser="UCSP" 
         venue="MV HALL"
         date="03/12/21"
         />
         <EventCard
-        img="https://ucsp-website.herokuapp.com/static/img/ml.jpeg"
+        img="./eventImages/ml.jpeg"
         heading="ML"
         organiser="UCSP" 
         venue="MV HALL"
