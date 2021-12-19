@@ -24,17 +24,16 @@ const Events = () => {
         <span className="events_tb">
           <div className="events_text">{text}</div>
           <div className="events_button">
-            <a href="" className="a">
+            <Link to="/events"><a href="/events" className="a">
               <nav className="nav">
                 <ul className="nav_ul">
                   <li className="nav_ul_li">
-                    <Link to="/events">Go to Events</Link>
-
+                    Go to Events
                     <span className="nav_ul_li_span"></span>
                   </li>
                 </ul>
               </nav>
-            </a>
+            </a></Link>
           </div>
         </span>
       </div>
