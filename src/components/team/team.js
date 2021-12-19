@@ -30,17 +30,17 @@ const Team = () => {
           <span className="team_tb">
             <div className="team_text">{text}</div>
             <div className="team_button">
-              <a href="" className="a">
+            <Link to="/team"><a href="/team" className="a">
                 <nav className="nav">
                   <ul className="nav_ul">
                     <li className="nav_ul_li">
-                    <Link to="/team">meet the team</Link>
+                    meet the team
                       
                       <span className="nav_ul_li_span"></span>
                     </li>
                   </ul>
                 </nav>
-              </a>
+              </a></Link>
             </div>
           </span>
         </div>

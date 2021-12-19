@@ -20,15 +20,15 @@ const Mentors = () => {
                 <span className="mentors_tb">
                     <div className="mentors_text">{text}</div>
                     <div className="mentors_button">
-                        <a href="#mentors" className="a">
+                    <Link to="/mentors"><a href="/mentors" className="a">
                             <nav className="nav">
                             <ul className="nav_ul">
                                 <li className="nav_ul_li">
-                                <Link to="/mentors"> Meet Mentors</Link>
+                                 Meet Mentors
                                     <span className="nav_ul_li_span"></span>
                                 </li>
                             </ul>
-                        </nav></a>
+                        </nav></a></Link>
                     </div>
                 </span>
                 <span className="mentors_lottie">
