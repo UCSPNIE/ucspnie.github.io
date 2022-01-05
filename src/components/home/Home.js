@@ -2,6 +2,7 @@ import React from "react";
 import About from "../about/about";
 import Events from "../events/events";
 import Mentors from "../mentors/mentors";
+import Projects from "../projects/projects";
 import Team from "../team/team";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Events />
       <Mentors />
       <Team />
+      <Projects/>
     </div>
   );
 };
