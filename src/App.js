@@ -10,6 +10,7 @@ import Mentors from "./pages/mentors/Mentors";
 import TeamPage from "./pages/team/TeamPage";
 import Footer from "./pages/footer/Footer";
 import Register from "./pages/Register/register";
+import Projects from "./pages/projects/projects";
 
 function App() {
     return (      
@@ -25,6 +26,7 @@ function App() {
           <Route exact path="/events" element={<Eventpage />} />
           <Route exact path="/team" element={<TeamPage />} />
           <Route exact path="/mentors" element={<Mentors />} />
+          <Route exact path="/projects" element={<Projects />} />
         </Routes>
 
         <Footer />
