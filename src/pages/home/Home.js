@@ -1,9 +1,5 @@
 import React from "react";
-import About from "../../components/about/about";
-import Events from "../../components/events/events";
-import Mentors from "../../components/mentors/mentors";
-import Projects from "../../components/projects/projects";
-import Team from "../../components/team/team";
+import { Events, About, Mentors, Projects, Team } from "../../components";
 
 const Home = () => {
   return (
