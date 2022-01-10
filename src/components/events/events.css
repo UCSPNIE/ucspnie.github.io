@@ -23,6 +23,12 @@
   width: 60vw;
 }
 
+.events_lottie div {
+  margin: auto;
+  width: 40vw !important;
+  height: 50vh;
+}
+
 .events_content {
   display: flex;
   flex-direction: row;
@@ -80,7 +86,7 @@
     font-size: 1.5em;
   }
 }
-.nav{
+.nav {
   justify-content: center;
   align-items: center;
   text-align: center;

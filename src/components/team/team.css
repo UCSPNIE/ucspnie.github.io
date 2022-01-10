@@ -23,6 +23,12 @@
   width: 60vw;
 }
 
+.team_lottie div {
+  margin: auto;
+  width: 40vw !important;
+  height: 50vh;
+}
+
 .team_content {
   display: flex;
   flex-direction: row;
@@ -31,9 +37,7 @@
   justify-content: space-evenly;
 }
 
-
-
-.nav{
+.nav {
   justify-content: center;
   text-align: center;
   align-items: center;

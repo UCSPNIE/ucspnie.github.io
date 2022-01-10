@@ -1,37 +1,42 @@
-.about_title{
-    color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
-    padding-top: 5em;
-    /* padding-left: 2em; */
-    font-size: large;
-    display: grid;
-    /* margin: auto; */
+.about_title {
+	color: white;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-top: 5em;
+	/* padding-left: 2em; */
+	font-size: large;
+	display: grid;
+	/* margin: auto; */
 }
 
-.about_lottie{
-    margin: 0em 2em ;
-    display: table-cell;
-    text-align: center;
-    padding-top: 2em;
+.about_lottie {
+	margin: 0em 2em;
+	display: table-cell;
+	text-align: center;
+	padding-top: 2em;
 }
 
-.about_content{
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    align-items: stretch;
-    justify-content: space-evenly;
+.about_lottie div {
+	width: 40vw;
+	height: 50vh;
 }
 
-.about_text{
-    padding: 2em 3em;
-    display: table-cell;
-    text-align: center;
-    color: white;
-    margin: 2em 2em ;
-    font-size: 1.2em;
+.about_content {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	align-items: stretch;
+	justify-content: space-evenly;
+}
+
+.about_text {
+	padding: 2em 3em;
+	display: table-cell;
+	text-align: center;
+	color: white;
+	margin: 2em 2em;
+	font-size: 1.2em;
 }
 
 /* .about_cards {
@@ -39,49 +44,39 @@
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 10px 6px 20px 0 rgba(255, 255, 255, 0.19);    text-align: center;
   } */
 
-
 .cards-row {
-	margin-top: 10em ;
-    margin-left: 2em;
-    margin-right: 2em;
+	margin-top: 10em;
+	margin-left: 2em;
+	margin-right: 2em;
 	display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
-    align-items: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+	text-align: center;
+	align-items: center;
 }
 
-
-  
 @media screen and (max-width: 1200px) {
-    .about_lottie{
-        display: none;
-    }
+	.about_lottie {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 700px) {
-    .about_text{
-        font-size: 1.2em;
-    }
+	.about_text {
+		font-size: 1.2em;
+	}
 }
-@media screen and (max-width:1000px){
-    .cards-row{
-        margin-top: 5em;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
+@media screen and (max-width: 1000px) {
+	.cards-row {
+		margin-top: 5em;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+	}
 }
 @media screen and (min-width: 900px) {
-    .about_text{
-        font-size: 1.5em;
-    }
+	.about_text {
+		font-size: 1.5em;
+	}
 }
-
-
-
-
-
-
-

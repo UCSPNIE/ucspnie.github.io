@@ -23,6 +23,12 @@
     width: 60vw;
 }
 
+.mentors_lottie div {
+  margin: auto;
+  width: 40vw !important;
+  height: 50vh;
+}
+
 .mentors_content{
     display: flex;
     flex-direction: row;
