@@ -9,7 +9,7 @@ const Eventpage = () => {
       <div className="newevent jello-vertical">
         <img
           src="./eventImages/paperwriting.jpeg"
-          alt="image"
+          alt="paper writing"
         />
       </div>
       <div className="card-container">

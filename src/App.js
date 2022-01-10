@@ -1,16 +1,16 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import "./App.css";
 
 import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./pages/home/Home";
 import Eventpage from "./pages/event/Eventpage";
-import Home from "./components/home/Home";
 import Mentors from "./pages/mentors/Mentors";
-
-import TeamPage from "./pages/team/TeamPage";
-import Footer from "./pages/footer/Footer";
-import Register from "./pages/Register/register";
 import Projects from "./pages/projects/projects";
+import Register from "./pages/Register/register";
+import TeamPage from "./pages/team/TeamPage";
 
 function App() {
     return (      
