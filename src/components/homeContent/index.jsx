@@ -3,9 +3,7 @@ import "./homeContent.css";
 import Lottie from "react-lottie-player";
 import { Link } from "react-router-dom";
 
-const HomeContent = (props) => {
-	let { lottieIsOnRight, lottieData, link, linktext } = props;
-
+const HomeContent = ({ name, text, link, linktext, lottieIsOnRight, lottieData }) => {
 	let LottieJSX = () => {
 		return (
 			<span className="contentx_lottie">
@@ -17,7 +15,7 @@ const HomeContent = (props) => {
 	let ContentJSX = () => {
 		return (
 			<span className="contentx_tb">
-				<div className="contentx_text">{props.text}</div>
+				<div className="contentx_text">{text}</div>
 				<div className="contentx_button">
 					<Link to={link}>
 						<nav className="nav">
@@ -37,7 +35,7 @@ const HomeContent = (props) => {
 	return (
 		<div className="contentx_row">
 			<div id="contentx" className="contentx_title">
-				<h1>{props.name}</h1>
+				<h1>{name}</h1>
 			</div>
 			<div className="contentx_content">
 				{lottieIsOnRight ? (

@@ -7,9 +7,8 @@
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding-top: 5em;
+	padding-top: 4em;
 	display: grid;
-	/* padding-left: 2em; */
 	font-size: large;
 	margin: auto;
 }
