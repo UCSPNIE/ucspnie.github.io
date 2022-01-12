@@ -40,6 +40,11 @@
   z-index: 1;
 }
 
+.about_cards_container .card .image svg {
+  padding: 10px;
+  height: 200px !important;
+}
+
 .about_cards_container .card .image img {
   max-width: 100%;
   border-radius: 15px;

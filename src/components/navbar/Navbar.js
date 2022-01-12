@@ -3,6 +3,7 @@ import "./Navbar.css";
 import { useState } from "react";
 import { RiMenuLine, RiCloseLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
+
 const Menu = () => (
   <>
     <p>
@@ -25,6 +26,7 @@ const Menu = () => (
     </p>
   </>
 );
+
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
@@ -42,28 +44,24 @@ const Navbar = () => {
       </div>
       <div className="ucsp__navbar-sign">
         {/* <p>Sign In</p> */}
-        <button type="button"><Link to="/register">Join Us</Link></button>
+        <button type="button">
+          <Link to="/register">Join Us</Link>
+        </button>
       </div>
       <div className="ucsp__navbar-menu">
         {toggleMenu ? (
-          <RiCloseLine
-            color="#fff"
-            size={27}
-            onClick={() => setToggleMenu(false)}
-          />
+          <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
         ) : (
-          <RiMenuLine
-            color="#fff"
-            size={27}
-            onClick={() => setToggleMenu(true)}
-          />
+          <RiMenuLine color="#fff" size={27} onClick={() => setToggleMenu(true)} />
         )}
         {toggleMenu && (
           <div className="ucsp__nav-menu_container scale-up-center">
             <div className="ucsp__navbar-menu_container-links">
               <Menu />
               <div className="ucsp__navbar-menu_container-links-sign">
-                <button type="button"><Link to="/register">Join Us</Link></button>
+                <button type="button">
+                  <Link to="/register">Join Us</Link>
+                </button>
               </div>
             </div>
           </div>
